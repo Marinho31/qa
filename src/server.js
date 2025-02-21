@@ -34,4 +34,4 @@ mongoose.connect(process.env.CONNECTION_STRING, { useNewUrlParser: true, useUnif
     .catch(e => console.log(e));
 
 app.use(express.urlencoded({ extended: true })); // Middleware para parsear o corpo das requisições
-app.use(routes);
+app.use(routes);   
