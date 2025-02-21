@@ -1,33 +1,19 @@
-cat <<EOF > README.md
+cat << 'EOF' > README.md
 # Secretaria
 
 ## Descrição
 Este é um projeto Node.js com Express e MongoDB para gerenciar funcionalidades relacionadas à secretaria.
 
 ## Estrutura do Projeto
-\`\`\`
-secretaria/
-├── frontend/
-├── node_modules/
-├── public/
-├── src/
-│   ├── controllers/
-│   ├── models/
-│   ├── views/
-│   ├── routes.js
-│   └── server.js
-├── .env
-├── .gitignore
-├── package-lock.json
-├── package.json
-└── webpack.config.js
-\`\`\`
+secretaria/ ├── frontend/ ├── node_modules/ ├── public/ ├── src/ │ ├── controllers/ │ ├── models/ │ ├── views/ │ ├── routes.js │ └── server.js ├── .env ├── .gitignore ├── package-lock.json ├── package.json └── webpack.config.js
+
 
 ## Instalação
 1. Clone o repositório:
-   \`\`\`sh
+   ```sh
    git clone https://github.com/Marinho31/qa.git
-   \`\`\`
+   git clone https://github.com/actual-user/actual-repo.git
+
 2. Acesse o diretório do projeto:
    \`\`\`sh
    cd secretaria
@@ -40,11 +26,11 @@ secretaria/
 ## Comandos Disponíveis
 - Iniciar o servidor em modo de desenvolvimento:
   \`\`\`sh
-  npm run start
+  npm run dev
   \`\`\`
 - Iniciar o Webpack em modo de desenvolvimento:
   \`\`\`sh
-  npm run dev
+  npm run webpack-dev
   \`\`\`
 
 ## Tecnologias Utilizadas
