@@ -7,20 +7,20 @@ Este é um projeto Node.js com Express e MongoDB para gerenciar funcionalidades 
 ## Estrutura do Projeto
 \`\`\`
 secretaria/
-│-- frontend/
-│-- node_modules/
-│-- public/
-│-- src/
-│   │-- controllers/
-│   │-- models/
-│   │-- views/
-│   │-- routes.js
-│   └-- server.js
-│-- .env
-│-- .gitignore
-│-- package-lock.json
-│-- package.json
-│-- webpack.config.js
+├── frontend/
+├── node_modules/
+├── public/
+├── src/
+│   ├── controllers/
+│   ├── models/
+│   ├── views/
+│   ├── routes.js
+│   └── server.js
+├── .env
+├── .gitignore
+├── package-lock.json
+├── package.json
+└── webpack.config.js
 \`\`\`
 
 ## Instalação
